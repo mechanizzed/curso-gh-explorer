@@ -48,6 +48,12 @@ const styles = StyleSheet.create({
     color: colors.white,
     fontWeight: 'bold',
   },
+
+  error: {
+    color: colors.error,
+    fontSize: fonts.small,
+    marginTop: 10,
+  },
 });
 
 export default styles;
