@@ -4,6 +4,8 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 import Repository from './components/Repository';
 
+import styles from './styles';
+
 export default class Repositories extends Component {
   static navigationOptions = {
     tabBarIcon: ({ tintColor }) => (
@@ -13,7 +15,7 @@ export default class Repositories extends Component {
 
   render() {
     return (
-      <View>
+      <View style={styles.container}>
         <Repository />
       </View>
     );
