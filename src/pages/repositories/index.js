@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
+
+import Repository from './components/Repository';
 
 export default class Repositories extends Component {
   static navigationOptions = {
@@ -12,7 +14,7 @@ export default class Repositories extends Component {
   render() {
     return (
       <View>
-        <Text>Repositórios</Text>
+        <Repository />
       </View>
     );
   }
