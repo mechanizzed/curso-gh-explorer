@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { ScrollView } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
+
+import Organization from './components/Organization';
+
+import styles from './styles';
 
 export default class Organizations extends Component {
   static navigationOptions = {
@@ -11,9 +15,14 @@ export default class Organizations extends Component {
 
   render() {
     return (
-      <View>
-        <Text>Organizações</Text>
-      </View>
+      <ScrollView
+        style={styles.container}
+        contentContainerStyle={styles.contentContainer}
+      >
+        <Organization />
+        <Organization />
+        <Organization />
+      </ScrollView>
     );
   }
 }
