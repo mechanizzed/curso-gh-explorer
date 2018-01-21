@@ -11,6 +11,7 @@
     "prop-types": "^15.6.0",
     "react": "16.2.0",
     "react-native": "0.52.0",
+    "react-native-vector-icons": "^4.5.0",
     "react-navigation": "^1.0.0-beta.27",
     "reactotron-react-native": "^1.13.2"
   },
@@ -18,14 +19,14 @@
     "babel-eslint": "^8.0.2",
     "babel-jest": "22.0.6",
     "babel-preset-react-native": "4.0.0",
-    "jest": "22.0.6",
-    "react-test-renderer": "16.2.0",
-    "eslint": "^4.9.0",
+    "eslint": "^4.16.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.4.0",
-    "eslint-plugin-react-native": "^3.1.0"
+    "eslint-plugin-react-native": "^3.1.0",
+    "jest": "22.0.6",
+    "react-test-renderer": "16.2.0"
   },
   "jest": {
     "preset": "react-native"
