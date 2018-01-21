@@ -10,7 +10,8 @@ const styles = StyleSheet.create({
     shadowColor: colors.inactive,
     shadowOpacity: 0.3,
     shadowRadius: 8,
-    marginBottom: 20,
+    marginTop: 20,
+    marginHorizontal: 20,
   },
 
   title: {
